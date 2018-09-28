@@ -84,7 +84,7 @@ int main(int argc, char **argv) {
     fptr = fopen(MANATEE_FILE, "r");
     if(fptr == NULL) {
       fprintf(stderr, "Your manatee file has gone missing.\n");
-      fprintf(stderr, "Contact manatee_fan@yahoo.com for a replacement manatee file.\n");
+      fprintf(stderr, "Contact m4n4t33_f4n@yahoo.com for a replacement manatee file.\n");
       fprintf(stderr, "(Please write, \"Regarding Missing Manatee File\" in the subject.)\n");
       exit(1);
     }
